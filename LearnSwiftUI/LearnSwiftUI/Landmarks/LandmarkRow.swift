@@ -30,18 +30,12 @@ struct LandmarkRow: View {
 
 struct LandmarkRow_Previews: PreviewProvider {
 
-    static var landMarks: [Landmark] {
-        let modelData = ModelData()
-        guard let landMarks = modelData.landMarks else {
-            return []
-        }
-        return landMarks
-    }
+    static var landMarks = ModelData().landMarks
     
     static var previews: some View {
         Group {
-            LandmarkRow(landMark: LandmarkRow_Previews.landMarks[1])
-            LandmarkRow(landMark: LandmarkRow_Previews.landMarks[2])
+            LandmarkRow(landMark: landMarks[1])
+            LandmarkRow(landMark: landMarks[2])
                 
         }
         .previewLayout(.fixed(width: 300, height: 70))

@@ -39,8 +39,9 @@ struct Landmark: Hashable, Codable, Identifiable {
 
 }
 
-struct ModelData {
-    var landMarks: [Landmark]?
+final class ModelData: ObservableObject {
+
+    @Published var landMarks: [Landmark] = []
     
     init() {
         landMarks = load("landmarkData.json")

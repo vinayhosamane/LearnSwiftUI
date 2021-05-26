@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct LearnSwiftUIApp: App {
+    
+    @StateObject var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
            CombinedView()
+            .environmentObject(modelData)
         }
     }
 }

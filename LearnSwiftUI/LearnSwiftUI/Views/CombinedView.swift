@@ -16,5 +16,6 @@ struct CombinedView: View {
 struct CombinedView_Previews: PreviewProvider {
     static var previews: some View {
         CombinedView()
+            .environmentObject(ModelData())
     }
 }

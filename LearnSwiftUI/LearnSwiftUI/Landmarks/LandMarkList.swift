@@ -8,21 +8,20 @@
 import SwiftUI
 
 struct LandMarkList: View {
-    var landMarks: [Landmark] {
-        let modelData = ModelData()
-        guard let landMarks = modelData.landMarks else {
-            return []
-        }
-        return landMarks
-    }
+    
+    @EnvironmentObject var modelData: ModelData
+    @State private var showFavoritesOnly = false
+    
+//    var landMarks: [Landmark] {
+//        let modelData = ModelData()
+//        return modelData.landMarks
+//    }
     
     var filteredLandmarks: [Landmark] {
-        landMarks.filter { (landmark) -> Bool in
+        modelData.landMarks.filter { (landmark) -> Bool in
             !showFavoritesOnly || landmark.isFavorite
         }
     }
-    
-    @State private var showFavoritesOnly = false
     
     var body: some View {
         NavigationView {
@@ -45,6 +44,7 @@ struct LandMarkList: View {
 struct LandMarkList_Previews: PreviewProvider {
     static var previews: some View {
         LandMarkList()
+            .environmentObject(ModelData())
             //.previewDevice(PreviewDevice(rawValue: "iPhone SE"))
     }
 }
