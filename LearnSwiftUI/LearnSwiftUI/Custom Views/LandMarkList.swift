@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LandMarkList: View {
-    static var landMarks: [Landmark] {
+    var landMarks: [Landmark] {
         let modelData = ModelData()
         guard let landMarks = modelData.landMarks else {
             return []
@@ -16,11 +16,25 @@ struct LandMarkList: View {
         return landMarks
     }
     
+    var filteredLandmarks: [Landmark] {
+        landMarks.filter { (landmark) -> Bool in
+            !showFavoritesOnly || landmark.isFavorite
+        }
+    }
+    
+    @State private var showFavoritesOnly = false
+    
     var body: some View {
         NavigationView {
-            List(LandMarkList.landMarks) { (landMark) in
-                NavigationLink(destination: LandmarkDetail(landMark: landMark)) {
-                    LandmarkRow(landMark: landMark)
+            List {
+                Toggle(isOn: $showFavoritesOnly, label: {
+                    Text("Favorites Only")
+                })
+
+                ForEach(filteredLandmarks) { landMark in
+                    NavigationLink(destination: LandmarkDetail(landMark: landMark)) {
+                        LandmarkRow(landMark: landMark)
+                    }
                 }
             }
             .navigationTitle("Landmarks")
@@ -31,6 +45,6 @@ struct LandMarkList: View {
 struct LandMarkList_Previews: PreviewProvider {
     static var previews: some View {
         LandMarkList()
-            .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
+            //.previewDevice(PreviewDevice(rawValue: "iPhone SE"))
     }
 }
