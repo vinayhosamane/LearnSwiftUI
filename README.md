@@ -9,6 +9,14 @@ https://www.hackingwithswift.com/100/swiftui
 
 https://www.appcoda.com/learnswiftui/
 
+# Experimets
+
+![alt-text](https://github.com/vinayhosamane/LearnSwiftUI/blob/main/LearnSwiftUI/LearnSwiftUI/Demo_Content/circle_wave_animation.gif)
+
+![alt-text](https://github.com/vinayhosamane/LearnSwiftUI/blob/main/LearnSwiftUI/LearnSwiftUI/Demo_Content/circle_loading.gif)
+
+![alt-text](https://github.com/vinayhosamane/LearnSwiftUI/blob/main/LearnSwiftUI/LearnSwiftUI/Demo_Content/SAP_Logo.gif)
+
 ### Add .gitignore file to avoid checkinng in usercontent data
 There are only three lines of code that you should write to terminal in order to achieve updated .gitignore file for Xcode 12+.
 
