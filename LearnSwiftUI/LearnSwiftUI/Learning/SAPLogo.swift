@@ -44,7 +44,8 @@ struct SAPLogo: View {
                         .foregroundColor(.red)
                         .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                         .scaleEffect(imageScale ? CGSize(width: 1.0, height: 1.0) : CGSize(width: 0.5, height: 0.5))
-                        .animation(Animation.linear(duration: 2).repeatForever(autoreverses: false))
+                        .animation(Animation.easeInOut(duration: 2).repeatForever(autoreverses: false
+                        ))
                         .onAppear(perform: {
                             imageScale = false
                         })
