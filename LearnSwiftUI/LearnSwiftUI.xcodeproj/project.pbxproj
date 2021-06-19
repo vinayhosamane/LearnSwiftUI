@@ -12,6 +12,9 @@
 		3D044A57265A2B110022E1AC /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D044A56265A2B110022E1AC /* landmarkData.json */; };
 		3D044A64265A2DF20022E1AC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D044A63265A2DF20022E1AC /* README.md */; };
 		3D044A6B265A43A30022E1AC /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D044A6A265A43A30022E1AC /* Landmark.swift */; };
+		3D2C96E82660BE5500BB3B08 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C96E72660BE5500BB3B08 /* HexagonParameters.swift */; };
+		3D2C96ED2660BF5600BB3B08 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C96EC2660BF5600BB3B08 /* BadgeBackground.swift */; };
+		3D2C96F22661125700BB3B08 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C96F12661125700BB3B08 /* CustomHeaderView.swift */; };
 		3D2DD2DF265A513E00A3E668 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DD2DE265A513E00A3E668 /* LandmarkRow.swift */; };
 		3D2DD2ED265A573B00A3E668 /* CombinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DD2EC265A573B00A3E668 /* CombinedView.swift */; };
 		3D2DD2F2265A592700A3E668 /* LandMarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DD2F1265A592700A3E668 /* LandMarkList.swift */; };
@@ -27,6 +30,10 @@
 		3D8DD93F2658C9A90037DCFB /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DD93D2658C9A90037DCFB /* Item+CoreDataClass.swift */; };
 		3D8DD9402658C9A90037DCFB /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DD93E2658C9A90037DCFB /* Item+CoreDataProperties.swift */; };
 		3D90C42D265DF02F00667677 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90C42C265DF02F00667677 /* FavoriteButton.swift */; };
+		3D98073426709D9200064C91 /* SAPLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D98073326709D9200064C91 /* SAPLogo.swift */; };
+		3DF593B9267502A6001729A3 /* CircleLoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF593B8267502A6001729A3 /* CircleLoadingAnimation.swift */; };
+		3DF593BE267507A6001729A3 /* CircleWaveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF593BD267507A6001729A3 /* CircleWaveAnimation.swift */; };
+		3DF593C326751CA2001729A3 /* CatalogHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF593C226751CA2001729A3 /* CatalogHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +59,9 @@
 		3D044A56265A2B110022E1AC /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		3D044A63265A2DF20022E1AC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3D044A6A265A43A30022E1AC /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		3D2C96E72660BE5500BB3B08 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		3D2C96EC2660BF5600BB3B08 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		3D2C96F12661125700BB3B08 /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
 		3D2DD2DE265A513E00A3E668 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		3D2DD2EC265A573B00A3E668 /* CombinedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedView.swift; sourceTree = "<group>"; };
 		3D2DD2F1265A592700A3E668 /* LandMarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkList.swift; sourceTree = "<group>"; };
@@ -73,6 +83,10 @@
 		3D8DD93D2658C9A90037DCFB /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3D8DD93E2658C9A90037DCFB /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3D90C42C265DF02F00667677 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		3D98073326709D9200064C91 /* SAPLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPLogo.swift; sourceTree = "<group>"; };
+		3DF593B8267502A6001729A3 /* CircleLoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoadingAnimation.swift; sourceTree = "<group>"; };
+		3DF593BD267507A6001729A3 /* CircleWaveAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWaveAnimation.swift; sourceTree = "<group>"; };
+		3DF593C226751CA2001729A3 /* CatalogHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,8 @@
 				3D044A4C265A0F6F0022E1AC /* CircleImage.swift */,
 				3D044A51265A24070022E1AC /* MapView.swift */,
 				3D90C42C265DF02F00667677 /* FavoriteButton.swift */,
+				3D2C96EC2660BF5600BB3B08 /* BadgeBackground.swift */,
+				3D2C96F12661125700BB3B08 /* CustomHeaderView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -150,6 +166,7 @@
 		3D8DD9092658C91A0037DCFB /* LearnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3D98073226709D7C00064C91 /* Learning */,
 				3D90C433265DF17E00667677 /* Views */,
 				3D90C432265DF16100667677 /* Landmarks */,
 				3D2DD2DD265A50EB00A3E668 /* Models */,
@@ -207,6 +224,7 @@
 				3D2DD2DE265A513E00A3E668 /* LandmarkRow.swift */,
 				3D2DD2F1265A592700A3E668 /* LandMarkList.swift */,
 				3D2DD2F6265A5B3600A3E668 /* LandmarkDetail.swift */,
+				3D2C96E72660BE5500BB3B08 /* HexagonParameters.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -218,6 +236,17 @@
 				3D2DD2EC265A573B00A3E668 /* CombinedView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3D98073226709D7C00064C91 /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				3D98073326709D9200064C91 /* SAPLogo.swift */,
+				3DF593B8267502A6001729A3 /* CircleLoadingAnimation.swift */,
+				3DF593BD267507A6001729A3 /* CircleWaveAnimation.swift */,
+				3DF593C226751CA2001729A3 /* CatalogHome.swift */,
+			);
+			path = Learning;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,19 +380,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2C96E82660BE5500BB3B08 /* HexagonParameters.swift in Sources */,
 				3D8DD9402658C9A90037DCFB /* Item+CoreDataProperties.swift in Sources */,
 				3D044A52265A24070022E1AC /* MapView.swift in Sources */,
+				3D2C96ED2660BF5600BB3B08 /* BadgeBackground.swift in Sources */,
 				3D8DD93F2658C9A90037DCFB /* Item+CoreDataClass.swift in Sources */,
 				3D8DD9142658C91B0037DCFB /* Persistence.swift in Sources */,
+				3D2C96F22661125700BB3B08 /* CustomHeaderView.swift in Sources */,
+				3D98073426709D9200064C91 /* SAPLogo.swift in Sources */,
 				3D044A4D265A0F6F0022E1AC /* CircleImage.swift in Sources */,
 				3D044A6B265A43A30022E1AC /* Landmark.swift in Sources */,
 				3D8DD90D2658C91A0037DCFB /* ContentView.swift in Sources */,
 				3D2DD2F7265A5B3600A3E668 /* LandmarkDetail.swift in Sources */,
 				3D2DD2F2265A592700A3E668 /* LandMarkList.swift in Sources */,
+				3DF593C326751CA2001729A3 /* CatalogHome.swift in Sources */,
 				3D8DD9172658C91B0037DCFB /* LearnSwiftUI.xcdatamodeld in Sources */,
 				3D2DD2ED265A573B00A3E668 /* CombinedView.swift in Sources */,
 				3D90C42D265DF02F00667677 /* FavoriteButton.swift in Sources */,
 				3D2DD2DF265A513E00A3E668 /* LandmarkRow.swift in Sources */,
+				3DF593BE267507A6001729A3 /* CircleWaveAnimation.swift in Sources */,
+				3DF593B9267502A6001729A3 /* CircleLoadingAnimation.swift in Sources */,
 				3D8DD90B2658C91A0037DCFB /* LearnSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

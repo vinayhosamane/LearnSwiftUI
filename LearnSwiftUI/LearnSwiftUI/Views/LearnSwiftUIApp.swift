@@ -14,8 +14,12 @@ struct LearnSwiftUIApp: App {
     
     var body: some Scene {
         WindowGroup {
-           CombinedView()
-            .environmentObject(modelData)
+//           CombinedView()
+//            .environmentObject(modelData)
+//            SAPLogo()
+//            CircleLoadingAnimation()
+//            CircleWaveAnimation()
+            CatalogHome()
         }
     }
 }
