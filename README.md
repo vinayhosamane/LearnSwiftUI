@@ -7,6 +7,8 @@ https://developer.apple.com/tutorials/swiftui
 
 https://www.hackingwithswift.com/100/swiftui
 
+https://www.appcoda.com/learnswiftui/
+
 ### Add .gitignore file to avoid checkinng in usercontent data
 There are only three lines of code that you should write to terminal in order to achieve updated .gitignore file for Xcode 12+.
 
